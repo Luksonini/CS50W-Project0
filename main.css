@@ -1,0 +1,160 @@
+
+body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 80vh; 
+    margin: 0; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: end; 
+    font-size: 15px;
+    width: 98%;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    margin:10px;
+}
+
+.navbar a:last-child{
+    margin-right: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    margin:10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.logo{
+    margin: 20px;
+    width: 272px;
+}
+
+.searching-with-icons{
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+}
+
+.search-ico-nd-field{
+    flex: 1;
+    display: flex;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 13px;
+    height: 46px;   
+}
+
+
+.icon-container-img-search{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    height: 46px;   
+}
+
+.material-symbols-outlined {
+    color: #9aa0a6;
+}
+
+
+.search-by-image-icon{
+    width: 24px;
+    padding-left: 0;
+}
+
+
+.search-link{
+    line-height: 24px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+.serching-section{
+    text-align: center; 
+}
+
+.input-field{
+    margin-top: 6;
+    width: 400px; 
+    padding: 5px;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: 
+}   
+
+.btn{
+ text-decoration: none;
+  direction: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.btn:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.btn:focus{
+    border: 1px solid #4285f4;
+    outline: none;
+}
+
+.lucky-anhor{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+
+
+
